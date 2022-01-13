@@ -1,0 +1,136 @@
+body {
+    background-image: url('images/pattern-background-desktop.svg');
+    background-position: left -70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 0.8rem;
+    padding-block: 3%;
+    background-color: rgb(229, 235, 250);
+}
+
+p {
+    color:  hsl(224, 23%, 55%);
+}
+
+.container {
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    padding: 0 0 30px;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+
+.container .illustration, .illustration img {
+    width: 100%;
+}
+
+
+h1{
+    margin-bottom: 0;
+    margin-top: 10%;
+    font-size: 1.25rem;
+    font-weight: 900;
+}
+
+h3 {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+
+.info {
+    font-size: 0.6;
+    font-weight: 500;
+    padding: 3% 10%;
+    line-height: 2;
+    margin-top: 0;
+}
+
+.price-plan {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    background-color: hsla(225, 100%, 94%, 0.5);
+    padding: 3%;
+    border-radius: 5%;
+}
+
+.plan {
+    text-align: left;
+}
+
+.plan h3, .plan p {
+    margin:5px;
+}
+
+.change {
+    text-align: right;
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.change:hover {
+    text-decoration: none;
+}
+
+button {
+    width: 75%;
+    margin: 2.5rem 0 1rem;
+    /* background-color: hsl(224, 23%, 55%); */
+    border-radius: 5%;
+    box-shadow: 0 10px 5px rgb(233, 227, 227);
+}
+
+/* button:hover {
+    background-color: hsl(245, 75%, 52%);
+} */
+
+button p {
+    color: #fff;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 0.75rem;
+}
+
+.cancel {
+    font-weight: 500;
+    width: 50%;
+    margin: auto;
+}
+
+.cancel:hover {
+    color: black;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: left; 
+    padding-left: 10px;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1440px) {
+    .container {
+        width: 320px;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    body {
+        background-position: top;
+    }
+}
