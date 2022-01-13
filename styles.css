@@ -6,13 +6,12 @@ body {
     margin: 0;
     font-family: 'Red Hat Display', sans-serif;
     font-size: 0.8rem;
-    padding-block: 3%;
+    padding-top: 3%;
     background-color: rgb(229, 235, 250);
 }
 
-p {
-    color:  hsl(224, 23%, 55%);
-}
+
+/* header section */
 
 .container {
     width: 25%;
@@ -37,14 +36,20 @@ h1{
     font-weight: 900;
 }
 
+/* main section */
+
+p {
+    color:  hsl(224, 23%, 55%);
+}
+
 h3 {
-    font-size: 0.8rem;
     font-weight: 700;
+    font-size: 0.8rem;
 }
 
 
 .info {
-    font-size: 0.6;
+    font-size: 0.6rem;
     font-weight: 500;
     padding: 3% 10%;
     line-height: 2;
@@ -82,17 +87,15 @@ h3 {
     text-decoration: none;
 }
 
+
+/* footer section */
 button {
     width: 75%;
     margin: 2.5rem 0 1rem;
-    /* background-color: hsl(224, 23%, 55%); */
     border-radius: 5%;
     box-shadow: 0 10px 5px rgb(233, 227, 227);
 }
 
-/* button:hover {
-    background-color: hsl(245, 75%, 52%);
-} */
 
 button p {
     color: #fff;
@@ -111,16 +114,26 @@ button p {
     color: black;
 }
 
+
+/* reference section */
 .attribution { 
     font-size: 11px; 
     text-align: left; 
     padding-left: 10px;
 }
 
+.reference {
+    position: absolute;
+    bottom: 0;
+}
+
 .attribution a { 
     color: hsl(228, 45%, 44%); 
     text-decoration: none;
 }
+
+
+/* media query */
 
 @media screen and (max-width: 1440px) {
     .container {
@@ -133,4 +146,5 @@ button p {
     body {
         background-position: top;
     }
+
 }
