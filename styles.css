@@ -38,41 +38,51 @@ h1{
 
 /* main section */
 
+.m-icon {
+    padding-bottom: 10px;
+}
+
 p {
     color:  hsl(224, 23%, 55%);
 }
 
-h3 {
+h2 {
     font-weight: 700;
     font-size: 0.8rem;
 }
 
 
 .info {
-    font-size: 0.6rem;
     font-weight: 500;
-    padding: 3% 10%;
+    padding: 3% 13%;
     line-height: 2;
     margin-top: 0;
 }
 
+.price-plan-border-radius {
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 80%;
+}
+
+
 .price-plan {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    width: 80%;
-    margin: 0 auto;
+    background-color: hsla(225, 100%, 94%, 0.5); 
     align-items: center;
-    background-color: hsla(225, 100%, 94%, 0.5);
     padding: 3%;
-    border-radius: 5%;
 }
+
+
 
 .plan {
     text-align: left;
 }
 
 .plan h3, .plan p {
-    margin:5px;
+    margin-block: 5px;
 }
 
 .change {
@@ -92,22 +102,26 @@ h3 {
 button {
     width: 75%;
     margin: 2.5rem 0 1rem;
-    border-radius: 5%;
+    border-radius: 10px;
     box-shadow: 0 10px 5px rgb(233, 227, 227);
-}
-
-
-button p {
     color: #fff;
-    margin: 0 auto;
+    margin: 50px auto 30px;
     font-weight: 700;
     font-size: 0.75rem;
+    background-color: hsl(245, 75%, 52%);
+    padding: 10px 32px;
+    border: hidden;
 }
+
+button:hover {
+    background-color:  hsl(224, 23%, 55%);
+}
+
 
 .cancel {
     font-weight: 500;
     width: 50%;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .cancel:hover {
@@ -123,7 +137,7 @@ button p {
 }
 
 .reference {
-    position: absolute;
+    position: relative;
     bottom: 0;
 }
 
@@ -137,7 +151,7 @@ button p {
 
 @media screen and (max-width: 1440px) {
     .container {
-        width: 320px;
+        width: 365px;
     }
 
 }
@@ -145,6 +159,10 @@ button p {
 @media screen and (max-width: 425px) {
     body {
         background-position: top;
+    }
+
+    .attribution {
+        display: none;
     }
 
 }
