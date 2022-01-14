@@ -152,7 +152,7 @@ button:hover {
 
 @media screen and (max-width: 1440px) {
     .container {
-        width: 320px;
+        width: 365px;
     }
 
 }
@@ -171,5 +171,9 @@ button:hover {
 
     .attribution {
         display: none;
+    }
+
+    .container {
+        width: 265px;
     }
 }
